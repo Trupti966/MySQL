@@ -1,1 +1,11 @@
 1) MySQL is case insensetive but try to write keywords in upper case and end with the semicolun.
+2) Entity means the table.
+
+
+
+--------KEYWORDS--------->
+
+1) SHOW DATABASES; -------> to see all the data bases present
+2) CREATE DATABASE database_name;  ---------> to create database
+3) USE database_name; ---------> to use the wanted database
+4) SELECT DATABASE();-------------->to know which is my current database i'm working with
