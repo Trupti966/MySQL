@@ -1,0 +1,26 @@
+Create a ECOMMERCE Database---------->
+
+Step-1) 
+
+      CREATE TABLE customers(
+          -> cid TINYINT NOT NULL,
+          -> cName VARCHAR(10),
+          -> email VARCHAR(10),
+          -> mobile_num VARCHAR(10),
+          -> gender VARCHAR(10),
+          -> age VARCHAR(5),
+          -> city VARCHAR(20),
+          -> registered_date DATE,
+          -> active VARCHAR(10));
+
+
+
+Step-2) 
+
+      SHOW TABLES;
+      +---------------------+
+      | Tables_in_ecommerce |
+      +---------------------+
+      | customers           |
+      +---------------------+
+      1 row in set (0.02 sec)
