@@ -1,5 +1,9 @@
 1) MySQL is case insensetive but try to write keywords in upper case and end with the semicolun.
 2) Entity means the table.
+3) Keywords means the reserved words.
+4) Identifiers means the words created by the user.
+        eg-->
+            table_name, database_name, col_name   etc.
 
 
 
@@ -9,3 +13,40 @@
 2) CREATE DATABASE database_name;  ---------> to create database
 3) USE database_name; ---------> to use the wanted database
 4) SELECT DATABASE();-------------->to know which is my current database i'm working with
+5) CREATE TABLE table_name; -----------> to create table.
+  
+      
+          CREATE TABLE table_name
+          (
+              col_name datatype constraints;
+
+
+
+          );
+          
+     eg--->
+     
+          CREATE TABLE users(
+    -> user_id TINYINT NOT NULL,
+    -> user_name VARCHAR(10),
+    -> password VARCHAR(10),
+    -> email VARCHAR(10),
+    -> gender VARCHAR(10),
+    -> status VARCHAR(10));
+
+
+
+6) SHOW TABLES;  ----------------> to see the created table.
+
+        +---------------------+
+        | Tables_in_instagram |
+        +---------------------+
+        | users               |
+        +---------------------+
+
+
+
+
+
+          
+          
