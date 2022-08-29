@@ -43,9 +43,26 @@
         +---------------------+
         | users               |
         +---------------------+
+        
+        
+ 7) INSERT INTO table_name; -------------> to insert data into the table
+ 
+               INSERT INTO users VALUES (1, "bob","bob@123","bob@gmail","male","single");
+ 8) SELECT * FROM users; ------> to see the created table data
+ 
+        +---------+-----------+----------+-----------+--------+--------+
+        | user_id | user_name | password | email     | gender | status |
+        +---------+-----------+----------+-----------+--------+--------+
+        |       1 | bob       | bob@123  | bob@gmail | male   | single |
+        +---------+-----------+----------+-----------+--------+--------+
 
 
-
+9) SELECT user_name, password FROM users; -------> to check the perticular data.
+        +-----------+----------+
+        | user_name | password |
+        +-----------+----------+
+        | bob       | bob@123  |
+        +-----------+----------+
 
 
           
