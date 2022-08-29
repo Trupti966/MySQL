@@ -5,3 +5,7 @@ To connect with the CMD(Command Prompt)
         3) mysql -u root -p
         4) now it will ask for password (my password is ----> root)
         5) now its connected the cmd with mysql server
+
+
+
+To clear the screen from the sql server at cmd --------> system cls
