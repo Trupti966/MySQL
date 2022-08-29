@@ -1,0 +1,7 @@
+To connect with the CMD(Command Prompt)
+    Steps------>
+        1) Go to CMD
+        2) Set Path ( cd c:\Program Files\MySQL\MySQL Server 8.0\bin )
+        3) mysql -u root -p
+        4) now it will ask for password (my password is ----> root)
+        5) now its connected the cmd with mysql server
