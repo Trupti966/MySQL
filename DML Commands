@@ -1,0 +1,3 @@
+INSERT ----> is used to insert data in to a table.
+UPDATE ----> is used to update existing data within a table.
+DELETE ----> is used to delete records from the database table.
