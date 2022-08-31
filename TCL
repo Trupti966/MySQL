@@ -1,0 +1,3 @@
+COMMIT    ----> commits a transaction.
+ROLLBACK  ----> rollbacks a transaction in case of any error occurs.
+SAVEPOINT ----> sets a save point within a transaction.
