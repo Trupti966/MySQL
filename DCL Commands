@@ -1,0 +1,2 @@
+GRANT  ----> gives user's access privileges to the database.
+REVOKE ---->withdraw user's access privileges given by using the GRANT command.
