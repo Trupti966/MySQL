@@ -1,0 +1,21 @@
+MySQL Provides different data types and each data types is categorised in to three main data types such as String, numeric, and date and time as shown in below:
+
+  DATATYPE
+
+1) TINYINT      ------->  -128 to 127
+2) SMALLINT     ------->
+3) INT          ------->
+4) MEDIUMINT    ------->
+5) BIGINT       ------->
+6) DECIMAL(P.S) ------->
+7) FLOAT(M.D)   ------->
+8) DOUBLE(M.D)  ------->
+9) DATE         ------->
+10) DATETIME    ------->
+11) TIME        ------->
+12) YEAR(M)     ------->
+13) CHAR(M)     ------->
+14) VARCHAR(M)  ------->
+15) BLOB        ------->
+16) ENUM        ------->
+17) SET         ------->
