@@ -12,8 +12,11 @@
 1) SHOW DATABASES; -------> to see all the data bases present
 2) CREATE DATABASE database_name;  ---------> to create database
 3) USE database_name; ---------> to use the wanted database
-4) SELECT DATABASE();-------------->to know which is my current database i'm working with
-5) CREATE TABLE table_name; -----------> to create table.
+4) SHOW TABLES; ---------------> to see the tables present inside the database.
+5) SELECT * FROM table_name; ------> to see the data present inside the table.
+6) SELECT DATABASE();-------------->to know which is my current database i'm working with
+7) DROP DATABASE database_name;------>delete the database.
+8) CREATE TABLE table_name; -----------> to create table.
   
       
           CREATE TABLE table_name
@@ -36,7 +39,7 @@
 
 
 
-6) SHOW TABLES;  ----------------> to see the created table.
+9) SHOW TABLES;  ----------------> to see the created table.
 
         +---------------------+
         | Tables_in_instagram |
@@ -45,10 +48,10 @@
         +---------------------+
         
         
- 7) INSERT INTO users VALUES( ); -------------> to insert data into the table
+ 10) INSERT INTO users VALUES( ); -------------> to insert data into the table
  
                INSERT INTO users VALUES (1, "bob","bob@123","bob@gmail","male","single");
- 8) SELECT * FROM users; ------> to see the created table data
+ 11) SELECT * FROM users; ------> to see the created table data
  
         +---------+-----------+----------+-----------+--------+--------+
         | user_id | user_name | password | email     | gender | status |
@@ -57,13 +60,13 @@
         +---------+-----------+----------+-----------+--------+--------+
 
 
-9) SELECT user_name, password FROM users; -------> to check the perticular data.
+12) SELECT user_name, password FROM users; -------> to check the perticular data.
         +-----------+----------+
         | user_name | password |
         +-----------+----------+
         | bob       | bob@123  |
         +-----------+----------+
-
+13)
 
           
           
