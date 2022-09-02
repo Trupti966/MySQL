@@ -71,5 +71,14 @@
 13) DESCRIBE table_name; -------> to check all the descriptions (constraints of the atribute/ columns).
 
 
-          
+14) DROP TABLE table_name; ------> to delete the table.
+
+15) ALTER TABLE table_name DROP column_name -------> to delete the column
+    
+16) ALTER TABLE table_name ADD column_name data_type constraint -----> to add the column in the table.
+
+17) ALTER TABLE table_name MODIFY column_name data_type constraint -----> to modify the column.
+
+
+    
           
