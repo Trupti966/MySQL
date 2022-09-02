@@ -66,7 +66,10 @@
         +-----------+----------+
         | bob       | bob@123  |
         +-----------+----------+
-13)
+        
+        
+13) DESCRIBE table_name; -------> to check all the descriptions (constraints of the atribute/ columns).
+
 
           
           
