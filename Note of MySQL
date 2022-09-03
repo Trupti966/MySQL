@@ -126,7 +126,19 @@
         
 
 
-24) 
+24) add multiple column same time--------->
+
+               ALTER TABLE users ADD(
+    -> gender varchar(10),
+    -> status varchar(10));
+    
+    describe users;
+        +-----------+-------------+------+-----+---------+----------------+
+        | Field     | Type        | Null | Key | Default | Extra          |
+        +-----------+-------------+------+-----+---------+----------------+
+        | gender    | varchar(10) | YES  |     | NULL    |                |
+        | status    | varchar(10) | YES  |     | NULL    |                |
+        +-----------+-------------+------+-----+---------+----------------+
 
 
 
