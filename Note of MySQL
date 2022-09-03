@@ -30,8 +30,8 @@
      eg--->
      
           CREATE TABLE users(
-    -> user_id TINYINT NOT NULL,
-    -> user_name VARCHAR(10),
+    -> user_id TINYINT NOT NULL PRIMARY KEY,
+    -> user_name VARCHAR(10) ,
     -> password VARCHAR(10),
     -> email VARCHAR(10),
     -> gender VARCHAR(10),
@@ -89,5 +89,48 @@
 
 19) PRIMARY KEY(column_name)--------> to set as primary.
 
+20) Create Primary key------->
+
+         create table users(
+    -> user_id tinyint not null primary key);
+
     
-          
+21) to check the detail information of table------>
+
+        describe table users;
+        +----+-------------+-------+------------+-------+---------------+---------+---------+------+------+----------+-------------+
+        | id | select_type | table | partitions | type  | possible_keys | key     | key_len | ref  | rows | filtered | Extra       |
+        +----+-------------+-------+------------+-------+---------------+---------+---------+------+------+----------+-------------+
+        |  1 | SIMPLE      | users | NULL       | index | NULL          | PRIMARY | 1       | NULL |    1 |   100.00 | Using index |
+        +----+-------------+-------+------------+-------+---------------+---------+---------+------+------+----------+-------------+
+
+22) check the normal column detail------>
+
+        describe users;
+        +---------+---------+------+-----+---------+-------+
+        | Field   | Type    | Null | Key | Default | Extra |
+        +---------+---------+------+-----+---------+-------+
+        | user_id | tinyint | NO   | PRI | NULL    |       |
+        +---------+---------+------+-----+---------+-------+
+
+23) alter table users modify user_id tinyint auto_increment; --------> to mske auto increment.
+        
+        now if check auto_increment must be added at extra;
+        
+        describe users;
+        +---------+---------+------+-----+---------+----------------+
+        | Field   | Type    | Null | Key | Default | Extra          |
+        +---------+---------+------+-----+---------+----------------+
+        | user_id | tinyint | NO   | PRI | NULL    | auto_increment |
+        +---------+---------+------+-----+---------+----------------+
+        
+
+
+
+
+
+
+
+
+
+
