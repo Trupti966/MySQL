@@ -85,6 +85,9 @@
 
 17) ALTER TABLE table_name MODIFY column_name data_type constraint; -----> to modify the column.
 
+18) ALTER TABLE table_name MODIFY attribute/column_name datatype AUTO_INCREMENT; --------> to increment the values automatically.
+
+19) PRIMARY KEY(column_name)--------> to set as primary.
 
     
           
