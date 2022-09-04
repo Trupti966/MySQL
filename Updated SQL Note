@@ -75,7 +75,7 @@
       7) Select the created table
       8) click on the table
       9) One query will run automatically SELECT * FRPOM trupti_database.Person;
-      10) Or Write one query to check if the column is prepared or not -----> SELECT * FRPOM trupti_database.Person;
+      10) Or Write one query to check if the column is prepared or not -----> SELECT * FRPOM trupti_database.Person; OR SELECT * FRPOM Person;
  
  
   *--------------- (2). INSERT INTO --------------------*
@@ -91,8 +91,14 @@
       VALUES(1,'Truptimayee','Barik','Joda','Keonjhar',2500000);
  
  
+ To Check data is added or not quary is----->
  
- 
+       select * from person; OR  select * from trupti_database.person;
+      +------+-------------+----------+---------+----------+---------+
+      | P_ID | FirstName   | LastName | Address | City     | Salary  |
+      +------+-------------+----------+---------+----------+---------+
+      |    1 | Truptimayee | Barik    | Joda    | Keonjhar | 2500000 |
+      +------+-------------+----------+---------+----------+---------+
  
  
  
