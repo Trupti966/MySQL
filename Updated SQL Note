@@ -149,8 +149,12 @@
                  
   
   
+  *--------------- (5). ORDER BY --------------------* 
   
+  ORDER BY ------> keyword is used to sort the result set by a specified column.
   
+  1) The ORDER BY Keyword sort the records in ascending order by default.
+  2) If you want to sort the records in a descending order, you can use DESC Keyword.
   
   
   
