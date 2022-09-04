@@ -53,8 +53,26 @@
             
  
  
+ Create table on MySQL workbench------->
  
- 
+      1) Go to Apropreate database.
+      2) Create one new file.
+      3) Write the code.
+      
+            EXAMPLE---------->
+            CREATE TABLE Persons(
+            P-ID int,
+            FirstName varchar(225),
+            LastName varchar(225),
+            Address varchar(225),
+            City varchar(225),
+            Salary int
+            );
+      4) Select the code then click on run
+      5) Go to Database 
+      6) Click on Table
+      7) Select the created table
+      8) click on the table
  
  
  
