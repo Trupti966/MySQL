@@ -23,12 +23,13 @@
 *--------> HOW TO CREATE A DATABASE----------------------*
 
       1) Go to MySQL Workbench
-      2) Click on new Schema.
+      2) Click on new Schema. (Example---> trupti_database)
       3) Give one name to the database
       4) click on apply
       5) click on finish
       
- *--------------- (1). Create Table --------------------*
+      
+ *--------------- (1). CREATE TABLE --------------------*
  
  CREATE TABLE ------> Statement is used to Create a new table in a database. 
                       You should specify the name and data types of each column. 
@@ -73,13 +74,21 @@
       6) Click on Table
       7) Select the created table
       8) click on the table
+      9) One query will run automatically SELECT * FRPOM trupti_database.Person;
+      
  
  
+  *--------------- (2). INSERT INTO --------------------*
  
+ INSERT INTO------> This statement is used to insert new record in a table.
  
- 
- 
- 
+ SYNTAX----->
+      INSERT INTO table_name(Column1,Column2,Column3)
+      VALUES(value1,value2,value3);
+      
+ EXAMPLE---------->
+      INSERT INTO Person(P_ID,FirstName,LastName,Address,City)
+      VALUES(1,'Truptimayee','Barik','Joda','Keonjhar');
  
  
  
