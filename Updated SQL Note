@@ -1,0 +1,21 @@
+1) SQL stands for Structured Query Language.
+2) SQL is a standard language for accessing and manipulating databases.
+
+3) Advantages of SQL------->
+      a) SQL can execute quaries against a database.
+      b) SQL can retrieve data from a database.
+      c) SQL can insert records in a database.
+      d) SQL can update records in a database.
+      e) SQL can delete records from a database.
+      f) SQL can create new databases.
+      g) SQL can create new tables in a database.
+      
+ 
+4)      .............DBMS..............................     ...............RDBMS...........................
+      i) In DBMS Data are stored as a file.                 i) In RDBMS Data are stored in a Tabular Form.
+     ii) Normalization is not available in DBMS.           ii) Normalization is available in RDBMS.
+    iii) Its allow one user at a time.                    iii) It allows more than one user at a time.
+     iv) Hierarchal arrangement of data.                   iv) Stores data in the form of Rows and Column.
+      v) It does not support ACID Property.                 v) It support ACID property.
+     vi) It Does not support Client Server Architecture.   vi) It support Client Server Architecture.
+  
