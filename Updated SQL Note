@@ -102,6 +102,184 @@
  
  
  
+  *--------------- (3). AND & OR OPERATOR --------------------*
+ 
+ AND operator displays a record if both the first and second conditions is true.
+ OR operator displays a record if either the first or the second condition is true.
+ 
+       SYNTAX------>
+             SELECT column1,column2,.....
+             FROM table_name
+             WHERE condition1 AND condition2 AND condition3.......;
+             
+             
+         EXAMPLE--(AND)--->
+             SELECT * FROM Person WHERE FirstName = "Truptimayee" AND LastName = "Barik";     
+             
+        
+        
+        SYNTAX------>
+             SELECT column1,column2,.....
+             FROM table_name
+             WHERE condition1 OR condition2 OR condition3.......;
+
+          EXAMPLE--(OR)--->
+             SELECT * FROM Person WHERE FirstName = "Ananya" OR LastName = "Dash"; 
+           
+ 
+
+  *--------------- (4). WHERE CLAUSE --------------------* 
+  
+  WHERE Clause is used to extract only those records that fulffil a specified criterion.
+  
+        SELECT column_name FROM
+        table_name WHERE column_name
+        operator value;
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
