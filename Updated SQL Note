@@ -75,7 +75,7 @@
       7) Select the created table
       8) click on the table
       9) One query will run automatically SELECT * FRPOM trupti_database.Person;
-      
+      10) Or Write one query to check if the column is prepared or not -----> SELECT * FRPOM trupti_database.Person;
  
  
   *--------------- (2). INSERT INTO --------------------*
@@ -88,7 +88,7 @@
       
  EXAMPLE---------->
       INSERT INTO Person(P_ID,FirstName,LastName,Address,City)
-      VALUES(1,'Truptimayee','Barik','Joda','Keonjhar');
+      VALUES(1,'Truptimayee','Barik','Joda','Keonjhar',2500000);
  
  
  
