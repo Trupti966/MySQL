@@ -19,3 +19,56 @@
       v) It does not support ACID Property.                 v) It support ACID property.
      vi) It Does not support Client Server Architecture.   vi) It support Client Server Architecture.
   
+
+*--------> HOW TO CREATE A DATABASE----------------------*
+
+      1) Go to MySQL Workbench
+      2) Click on new Schema.
+      3) Give one name to the database
+      4) click on apply
+      5) click on finish
+      
+ *--------------- (1). Create Table --------------------*
+ 
+ CREATE TABLE ------> Statement is used to Create a new table in a database. 
+                      You should specify the name and data types of each column. 
+ 
+       SYNTAX---------->
+             CREATE TABLE table_name(
+               Column1 datatype,
+               Column2 datatype,
+               Column3 datatype
+               );
+ 
+ 
+        EXAMPLE---------->
+            CREATE TABLE Persons(
+            P-ID int,
+            FirstName varchar(225),
+            LastName varchar(225),
+            Address varchar(225),
+            City varchar(225)
+            );
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
