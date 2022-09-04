@@ -136,9 +136,17 @@
         table_name WHERE column_name
         operator value;
 
-  
-  
-  
+             
+         EXAMPLE---->
+             SELECT * FROM Person WHERE FirstName = "Truptimayee" AND LastName = "Barik";     
+             
+
+          EXAMPLE----->
+             SELECT * FROM Person WHERE FirstName = "Ananya" OR LastName = "Dash"; 
+           
+           EXAMPLE----->
+                 SELECT * FROM person WHERE P_ID = 2;
+                 
   
   
   
